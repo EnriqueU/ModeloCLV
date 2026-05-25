@@ -1,4 +1,108 @@
-# Archivos del sistema operativo macOS
+# ==========================================
+# Archivos del Sistema Operativo
+# ==========================================
 .DS_Store
-.AppleDouble
-.LSOverride
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Entornos Virtuales (¡Nunca se suben!)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+CentOS_env/
+.env/
+
+# ==========================================
+# Python (Caché, Compilados y Reportes)
+# ==========================================
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing y Cobertura (TDD/BDD)
+.pytest_cache/
+.htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.mo
+*.pot
+
+# ==========================================
+# Jupyter Notebooks (Caché y Checkpoints)
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Descomenta la siguiente línea si NO quieres subir las carpetas de datos de Jupyter
+# .local
+
+# ==========================================
+# DevOps & Contenedores (Docker / Ansible)
+# ==========================================
+.terraform/
+*.tfstate
+*.tfstate.backup
+.elasticbeanstalk/
+# Archivos de reintento de Ansible (opcional)
+*.retry
+
+# ==========================================
+# Configuración de Editores de Código (IDE)
+# ==========================================
+.vscode/
+# Nota: Si trabajas en equipo y compartes la configuración de VSCode, 
+# puedes comentar la línea de arriba y descomentar las siguientes:
+#.vscode/settings.json
+#.vscode/tasks.json
+#.vscode/launch.json
+
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# Datos Sensibles y Credenciales (¡CRÍTICO!)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.secret
+*.crypto
+id_rsa
+private_key.json
