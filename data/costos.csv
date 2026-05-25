@@ -1,0 +1,7 @@
+producto,moneda,costo_originacion_pct,costo_mantenimiento_anual_pct
+Credito,PEN,0.02,0.015
+Credito,USD,0.018,0.012
+Leasing,PEN,0.025,0.02
+Leasing,USD,0.022,0.018
+Tarjeta,PEN,0.01,0.025
+Tarjeta,USD,0.008,0.02
